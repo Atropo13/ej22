@@ -1,8 +1,5 @@
 from ejercicio1 import lee_variaciones_temperatura
 from matplotlib import pyplot as plt
-pip install matplotlib
-
-import matplotlib.dates as mdates
 
 def muestra_variaciones_temperatura(ruta_csv):
     variaciones = lee_variaciones_temperatura(ruta_csv)
